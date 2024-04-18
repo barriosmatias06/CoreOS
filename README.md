@@ -28,7 +28,7 @@ root: sudo rpm-ostree install docker-compose
 	Usuario para los chicos. (accesos) : usuariopepe
 	
 ##Fedora Core OS ignition.bu > ignition.ign
-#
+
 variant: fcos
 version: 1.4.0
 passwd:
