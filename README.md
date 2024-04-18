@@ -42,7 +42,6 @@ passwd:
         - "sudo"
         - "docker"
       ssh_authorized_keys:
-
         - ssh-ed25519 $[keyssh}
     - name: usuario2
       groups:
