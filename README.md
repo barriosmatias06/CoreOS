@@ -41,18 +41,19 @@ passwd:
         - "sudo"
         - "docker"
       ssh_authorized_keys:
-        - ssh-ed25519 $[keyssh}
+        - ssh-ed25519 Dsne1.33fg17rbv0$j/JZNIii0FV.X2fLA77QV1bRYTXn5Pi $[keyssh}
     - name: usuario2
       groups:
         - "sudo"
         - "docker"
       ssh_authorized_keys:
-        - ssh-ed25519 ${keyssh}
+        - ssh-ed25519 Dsne1.33fg17rbv0$j/JZNIii0FV.X2fLA77QV1bRYTXn5Pi ${key-ssh}
     - name: usuariogenerico
       groups:
         - "docker"
       password_hash: $y$j9T$M.HlEADsne1.33fg17rbv0$j/JZNIii0FV.X2fLA77QV1bRYTXn5PijGPAfaDGHmD/
       #pwusuariogenerico
+      
 systemd:
   units:
     - name: serial-getty@ttyS0.service
